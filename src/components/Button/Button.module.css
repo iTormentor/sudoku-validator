@@ -1,0 +1,42 @@
+.button {
+    border: none;
+    border-radius: 4px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: all .1s ease;
+    font-family: Roboto, sans-serif;
+    font-size: .9rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outlined {
+    color: rgb(255, 255, 255, 90%);
+    border-color: rgb(255, 255, 255, 90%);
+    border-width: 1px;
+    border-style: solid;
+    background: transparent;
+}
+
+.outlined:hover {
+    color: rgb(255, 255, 255, 100%);
+    background: rgb(255, 255, 255, 10%);
+    border-color: rgb(255, 255, 255, 100%);
+}
+
+.filled {
+    color: black;
+}
+
+.filled:hover {
+    background: rgb(255, 255, 255, 75%);
+}
+
+.icon {
+    width: 1.6rem;
+    height: 1.6rem;
+}

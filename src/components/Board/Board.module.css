@@ -1,0 +1,38 @@
+.container {
+}
+
+.row {
+    display: flex;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 48px;
+    width: 48px;
+    border: 1px solid rgb(255, 255, 255, 25%);
+}
+
+.valid {
+    border-color: green;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.boxContainer {
+    border: 1px solid rgb(255, 255, 255, 75%);
+}
+
+.box {
+    border: 1px solid rgb(255, 255, 255, 75%);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}

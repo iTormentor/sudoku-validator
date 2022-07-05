@@ -1,0 +1,59 @@
+.root {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 2rem;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: .5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 2rem;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.validationSteps {
+    margin-bottom: 1rem;
+}
+
+.validationStep {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.infoCard {
+    background: rgb(255, 255, 255, 7.5%);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
