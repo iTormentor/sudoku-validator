@@ -1,4 +1,6 @@
-# Sudoku Validator
+# Sudoku Validator - Group Project
+
+
 
 A multi-threaded sudoku validator built for the Operating Systems with System Programming (IDATA2305) course.
 
